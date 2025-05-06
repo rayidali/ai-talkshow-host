@@ -10,7 +10,7 @@ An interactive Next.js web application where users can converse with an AI talk 
 - **Real-Time Voice Interaction**: Speak to Robin and hear immediate voice responses.
 - **Transcript Display**: Watch your conversation unfold in real-time text transcripts.
 - **Toggle Start/Stop**: Begin or end the conversation at any time for a clean session.
-- **Sassy, Fun Personality**: Robin is configured to be a flamboyant, no-filter drag style host.
+- **Sassy, Fun Personality**: Robin is configured to be a flamboyant, no-filter queen style host.
 
 ## Tech Stack
 
