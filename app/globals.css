@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Questrial&family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Chivo:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
   --background-gradient: linear-gradient(135deg, #a85b2a 0%, #e09b3d 100%);
   --foreground: #fffbe9;
-  --font-brand: 'Questrial', sans-serif;
-  --font-heading: 'DM Serif Text', serif;
-  --font-body: 'Questrial', sans-serif;
+  --font-brand: 'Chivo', sans-serif;
+  --font-heading: 'Cal Sans', sans-serif;
+  --font-body: 'Chivo', sans-serif;
   --accent: #2d1c0b;
   --button-bg: #2d1c0b;
   --button-text: #fffbe9;
