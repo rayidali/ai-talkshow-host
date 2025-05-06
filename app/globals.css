@@ -4,9 +4,9 @@
 :root {
   --background-gradient: linear-gradient(135deg, #a85b2a 0%, #e09b3d 100%);
   --foreground: #fffbe9;
-  --font-brand: 'Chivo', sans-serif;
-  --font-heading: 'Cal Sans', sans-serif;
-  --font-body: 'Chivo', sans-serif;
+  --font-brand: var(--font-chivo);
+  --font-heading: var(--font-cal-sans);
+  --font-body: var(--font-chivo);
   --accent: #2d1c0b;
   --button-bg: #2d1c0b;
   --button-text: #fffbe9;

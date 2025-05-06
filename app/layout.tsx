@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Chivo } from 'next/font/google';
+import localFont from 'next/font/local';
 import Image from "next/image";
 import "./globals.css";
 import ScrollEffects from './components/ScrollEffects';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const chivo = Chivo({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  variable: '--font-chivo',
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const calSans = localFont({
+  src: './fonts/CalSans-Regular.woff2',
+  variable: '--font-cal-sans',
 });
 
 export const metadata: Metadata = {
@@ -28,9 +30,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${chivo.variable} ${calSans.variable}`}>
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className="antialiased"
         style={{ minHeight: '100vh', width: '100vw', overflowX: 'hidden' }}
       >
         <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
