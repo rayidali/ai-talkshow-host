@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "TeadTalk",
   description: "AI Talk Show Host",
   icons: {
-    icon: '/logo_design.png',
+    icon: '/teadtalkblackpng.png',
   },
 };
 
